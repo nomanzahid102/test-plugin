@@ -1,11 +1,16 @@
-Front End
+Plugin Working video url
+
+https://www.loom.com/share/04e898e440fe4161a46cf08f9ea995fc
+
+==Front End==
 
 Plugin Register a Template name as From Template. Create a new page assign form template to the page.
 Now you can access the form via page url.
 Form contain Name and url field.
 when you submitted the form data is store in the websites custom post type.
 
-backend
+==backend==
+
 when plugin activate it register a custom template,
 create custom post types named as websites, 
 create textarea metabox,
