@@ -1,5 +1,6 @@
 Front End
-Plugin Register a Template name as From Template. when Create a new page assign form template to the page.
+
+Plugin Register a Template name as From Template. Create a new page assign form template to the page.
 Now you can access the form via page url.
 Form contain Name and url field.
 when you submitted the form data is store in the websites custom post type.
