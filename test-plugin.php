@@ -42,8 +42,7 @@ if ( ! class_exists( 'TP_Form' ) ) {
 			defined( 'TP_CSS_DIR' ) or define( 'TP_CSS_DIR', plugin_dir_url( __FILE__ ) . 'inc/css' );
 			defined( 'TP_JS_DIR' ) or define( 'TP_JS_DIR', plugin_dir_url( __FILE__ ) . 'inc/js' );
 			defined( 'TP_VERSION' ) or define( 'TP_VERSION', '0.1' );
-			defined( 'TP_TD' ) or define( 'TP_TD', 'posts-like-dislike' );
-			defined( 'TP_BASENAME' ) or define( 'TP_BASENAME', plugin_basename( __FILE__ ) );
+			
 
 		}
 	}
