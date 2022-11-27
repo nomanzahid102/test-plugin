@@ -21,7 +21,7 @@ jQuery(document).ready(function ($) {
                 $(".submit-form").attr("disabled", false);
                 $('.submit-button').removeClass('togle-class');
                   $("#visited-user")[0].reset();
-                $response = $.parseJSON(res);
+                let $response = $.parseJSON(res);
                 $('.message').text($response.message).show();
                 // console.log($response);
             }
