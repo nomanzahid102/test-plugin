@@ -20,6 +20,7 @@ jQuery(document).ready(function ($) {
             success: (res) => {
                 $(".submit-form").attr("disabled", false);
                 $('.submit-button').removeClass('togle-class');
+                  $("#visited-user")[0].reset();
                 $response = $.parseJSON(res);
                 $('.message').text($response.message).show();
                 // console.log($response);
