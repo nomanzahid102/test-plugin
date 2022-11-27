@@ -23,6 +23,9 @@ jQuery(document).ready(function ($) {
                   $("#visited-user")[0].reset();
                 let $response = $.parseJSON(res);
                 $('.message').text($response.message).show();
+                setTimeout(()=>{
+                    $('.message').hide();
+                },3000)
                 // console.log($response);
             }
 
