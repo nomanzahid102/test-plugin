@@ -1,22 +1,15 @@
-== Installation ==
+Front End
+Plugin Register a Template name as From Template. when Create a new page assign form template to the page.
+Now you can access the form via page url.
+Form contain Name and url field.
+when you submitted the form data is store in the websites custom post type.
 
-1. Upload the plugin files to the `/wp-content/plugins/test-plugin` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-1. Use the Form Template exist in the page template option of the page.
-
-==Front End==
-After assign the template to the page you can access front page via permalink of the page which you assign the template.
-Form ask for Name and URL,
-when submit form of name which behave like tittle of custom post type already exist then display meesage user already exist.
-Information is store in custom post type named as website. from admin you can see all the data of filled form from website post types.
-
-==Backend==
-
-No one create new Website.
-All the standard metabox are removed from backend.
-no body can edit the website.
-A metabox exist in custom post type which contain the souce of url provided by user when submitted the form.
-
-You can access the rest api json route endpoint by visitig the follow url
+backend
+when plugin activate it register a custom template,
+create custom post types named as websites, 
+create textarea metabox,
+restrict user to create new Website,edit or update.
+textarea metabox contain the source of the website url which user provide when form is sumitted.
+can access the rest api json route endpoint by visitig the follow url
 /wp-json/wp/v2/websites
 
